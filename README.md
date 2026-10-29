@@ -18,7 +18,8 @@ Abra `http://localhost:5173` no navegador.
 - Agenda semanal com escalas dos profissionais.
 - Lista de usuários com cargos, status e busca.
 - Kanban de treinos por dia da semana.
-- Busca de exercícios do catálogo e inclusão no treino do dia.
+- Catálogo local com 171 exercícios, busca por nome/alias, filtro por grupo muscular e inclusão de movimentos personalizados.
+- Montador de refeições com busca no catálogo local de 34 alimentos, filtro por categoria e cálculo automático de calorias, proteína, carboidratos, gorduras, fibras, açúcares e sódio por quantidade.
 - Tela de configurações e preferências.
 
-Os dados ainda são locais, em memória, para validar a experiência. A próxima etapa pode conectar autenticação, banco de dados e permissões reais.
+Os catálogos ficam em `src/data/exercises.js` e `src/foodDatabase.js`. Os treinos e refeições ainda ficam em memória no protótipo; a próxima etapa é conectar autenticação, banco de dados e permissões reais.
